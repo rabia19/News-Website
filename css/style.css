@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+/*h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #3a3a3a;
+    line-height: 1.2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    color: #9f9f9f;
+    font-size: 1em;
+    line-height: 1.9;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+a:focus {
+    outline: 0 solid;
+}
+
+a,
+a:hover,
+a:focus {
+    -webkit-transition: all 500ms ease 0s;
+    transition: all 500ms ease 0s;
+    text-decoration: none;
+    outline: none;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+ul,
+ol {
+    margin: 0;
+}
+
+ol li,
+ul li {
+    list-style: outside none none;
+}
+*/
+
+.header-area{
+ background-color:  #1d1d1d;
+ top: 0;
+
+}
+.breaking-news-area{
+    color: white;
+    right: 0;
+    position: relative;
+    
+    height: 70px;
+    background-color: #1d1d1d;
+    
+    
+}
+.breaking-news-title{
+    padding: 20px;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    width:30%;
+}
+
+.breaking-text-title{
+    padding: 20px;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    width:30%;
+}
+
+ 
+.middle-header {
+    position: relative;
+    z-index: 1;
+    height: 120px;
+    background-color: #fff;
+    margin: 30px;
+}
+
+.main-header {
+    width: 100%;
+    height: 55px;
+    border-top: 1px solid #e4e4e4;
+}
+.main-header .container ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    justify-content: space-between;
+}
+li a:hover{
+    color: red;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: red;
+    background-color: #ddd;
+    color: #3a3a3a;
+    line-height: 1.2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
