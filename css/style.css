@@ -405,3 +405,44 @@ li a.active {
 .post_share_btn_group a:hover {
     color: #ff0303;
 }
+
+/*Todays Most Populeat*/
+.gazette_heading h4 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e0e0e0;
+    margin-bottom: 50px;
+}
+
+.todays_post_content p {
+    font-size: 14px;
+    line-height: 2;
+    margin-top: 15px;
+}
+
+.todays_post_thumb {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 32%;
+            flex: 0 0 32%;
+    margin-right: 30px;
+    max-width: 32%;
+}
+
+.todays_post_content {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 68%;
+            flex: 0 0 68%;
+    max-width: 68%;
+}
+
+.todays_post_content h3 a {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.post_total_comments {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
