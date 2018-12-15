@@ -24,3 +24,21 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+
+
+function myMove() {
+  var elem = document.getElementsByClassName("items");   
+  var pos = 0;
+  var id = setInterval(frame, 5);
+  function frame() {
+    if (pos == 350) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.right = pos + "px"; 
+      elem.style.left = pos + "px"; 
+    }
+  }
+}
+
