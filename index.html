@@ -14,9 +14,11 @@
     <!--  Style CSS -->
     
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">    
     <script src="js/carousel.js" defer></script>
+ 
   
    
     <script src="js/jquery/jquery-2.2.4.min.js" defer></script>
@@ -26,9 +28,14 @@
 
 </head>
 
+
 <body>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+      
     <header class="header_area">
+
         <div class="area"></div>
+
     </header>
    
         
@@ -46,7 +53,7 @@
             <button class="dropbtn"><i class="fas fa-bars"></i></button>
                 <div class="topnav">
                         <ul>
-                            <li><a class="active" href="#home">HOME</a></li>
+                            <li><a class="active" href="index.html">HOME</a></li>
                             <li><a href="#news">CATEGORY</a></li>
                             <li><a href="single_post.html">SINGLE POST</a></li>
                             <li><a href="#about">ABOUT US</a></li>
@@ -131,6 +138,7 @@
                 <span class="dot" onclick="currentSlide(3)"></span> 
         </div>
         </section>
+       
         
         
             
@@ -178,12 +186,12 @@
                             </div>
                            
                             <div class="main_text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices egestas nunc, quis venenatis orci tincidunt id. Fusce commodo blandit eleifend. Nullam viverra tincidunt dolor, at pulvinar dui. Nullam at risus ut ipsum viverra posuere. Aliquam quis convallis enim. Nunc pulvinar molestie sem id blandit. Nunc venenatis interdum mollis. Aliquam finibus nulla quam, a iaculis justo finibus non. Suspendisse in fermentum nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices egestas nunc, quis venenatis orci tincidunt id. Fusce commodo blandit eleifend.</p>
-                            
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices egestas nunc, quis venenatis orci tincidunt id. Fusce commodo blandit eleifend. Nullam viverra tincidunt dolor, at pulvinar dui. Nullam at risus ut ipsum viverra posuere. Aliquam quis convallis enim. Nunc pulvinar molestie sem id blandit. Nunc venenatis interdum mollis. Aliquam finibus nulla quam, a iaculis justo finibus non. Suspendisse in fermentum nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices egestas nunc, quis venenatis orci tincidunt id. Fusce commodo blandit eleifend<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, venenatis orci tincidunt id. Fusce commodo blandit eleifend. ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+                            <button class="button button1" onclick="myFunction()" id="#myBtn">CONTINUE READING &#10095;</button>
                             </div>
-                                <div class="post_continue_btn">
-                                    <a href="#" >Continue Reading <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                                </div>
+                                
+                                    
+                              
                                 <div class="post_share_btn_group">
                                     <a href="#"><i class="fab fa-pinterest" aria-hidden="true"></i></a>
                                     <a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>

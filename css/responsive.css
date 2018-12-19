@@ -145,8 +145,14 @@
       display: block;
       margin:0;
     }
+    .contact_area .container{
+      display: flex;
+      flex-direction: column; 
+      flex-wrap: wrap;
+      margin:10px;
+    }
 
-  }
+    }
 
 
   

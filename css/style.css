@@ -150,6 +150,7 @@ li a.active {
   }
   
 .search_container button {
+    float:right;
     background: #ddd;
     width: 55px;
     height: 33px;
@@ -402,25 +403,31 @@ li a.active {
     font-size: 18px;
     
 }
-.post_continue_btn a {
-    height: 54px;
-    border: 1px solid #1e1e1e;
-    display: inline-block;
-    padding: 0 20px;
-    line-height: 52px;
-    color: #1e1e1e;
-    text-transform: uppercase;
+.button {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
     text-decoration: none;
-    
-}
-.post_continue_btn a:hover {
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 1px solid black;
+  }
+  
+
+.button:hover {
     border: 1px solid #ff0303;
     color: #ff0303;
 }
-.post_continue_btn a i {
-    padding-left: 15px;
 
-}
 .post_share_btn_group{
     display: flex;
     justify-content: flex-end;
