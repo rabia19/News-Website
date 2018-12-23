@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.8.3
+- https://www.phpmyadmin.net
+-
+- Хост: 127.0.0.1
+- Время создания: Дек 23 2018 г., 12:30
+- Версия сервера: 10.1.37-MariaDB
+- Версия PHP: 7.2.12
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="web_project" collation="utf8_general_ci" charset="utf8">
+            <pma:table name="articles">
+                CREATE TABLE `articles` (
+                  `id` int(7) NOT NULL AUTO_INCREMENT,
+                  `title` varchar(255) NOT NULL,
+                  `text` mediumtext NOT NULL,
+                  `source` varchar(255) NOT NULL,
+                  `author` varchar(255) NOT NULL,
+                  `date_created` date NOT NULL,
+                  `images` varchar(255) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=39 DEFAULT CHARSET=utf8;
+            </pma:table>
+            <pma:table name="users">
+                CREATE TABLE `users` (
+                  `login` varchar(31) NOT NULL,
+                  `password` varchar(32) NOT NULL,
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - База данных: 'web_project'
+    -->
+    <database name="web_project">
+        <!-- Таблица articles -->
+        <table name="articles">
+            <column name="id">33</column>
+            <column name="title">Astana Street has appeared in the capital city of Jordan</column>
+            <column name="text">Mayor of Astana Bakhyt Sultanov paid an official visit to Amman, the capital city of Jordan, on an official website of the capital Mayors Office. 
+
+Sister cities Astana and Amman keep on boosting the economic and cultural cooperation: one of the central streets of the Jordanian capital city was called after the capital city of Kazakhstan - Astana. Its solemn opening was attended by Mayor of Astana Bakhyt Sultanov and Mayor of the city of Amman Yousef Shawarbeh. 
+
+The friendly relations between Kazakh President Nursultan Nazarbayev and Abdullah II of Jordan are exemplary, and meet the interests of both countries, said Bakhyt Sultanov. 
+
+The Mayor expressed gratitude for attention to the Kazakh leader: as is known, one of the central streets of Jordans capital city was named after the Kazakh President in 2010.</column>
+            <column name="source">https://bnews.kz/en/news/astana_street_has_appeared_in_the_capital_city_of_jordan</column>
+            <column name="author"></column>
+            <column name="date_created">2018-12-23</column>
+            <column name="images">https://bnews.kz/storage/e0/e0c68f86c887869d4bd5740d37168f51.jpg</column>
+        </table>
+        <table name="articles">
+            <column name="id">34</column>
+            <column name="title">Kazakhstan to open a Figure skating Academy named after Denis Ten</column>
+            <column name="text">A figure skating academy named after figure skater Denis Ten can be founded in Kazakhstan, it was revealed at a press conference on the activities of the Foundation in the memory of the bronze winner of the Olympics in Sochi, BNews.kz correspondent reports. 
+
+One of the main directions making up Deniss sports activity was a dream of setting up a figure skating academy in Kazakhstan. We are working on this project, and plan to launch the academy in 2019, said Deniss mother Oksana Ten. 
+
+According to the Denis Ten Foundations representatives, the academys concept was drafted with legendary figure skating coach Tatiana Tarasova. 
+
+We have a ready concept, and we talked it over with Tatiana Tarasova in Almaty. This is a time-consuming project, and careful management is necessary. Almaty Mayor Baurzhan Baibek provided us Halyk Arena, and now we are negotiating the timetable, said Sergey Kan, a businessman, president of JSC Central Asian Fuel and Energy Company.
+
+The Foundation comes Denis Tens creative plans into life, including a musical album, film and a collection of verses. </column>
+            <column name="source">https://bnews.kz/en/news/kazakhstan_to_open_a_figure_skating_academy_named_after_demis_ten</column>
+            <column name="author"></column>
+            <column name="date_created">2018-12-23</column>
+            <column name="images">https://bnews.kz/storage/0b/0be033f7d4308fee81d3cf4e3013d893_crop_l_5_t_2_w_512_h_288_resize_w_525_h_.jpgg</column>
+        </table>
+        <table name="articles">
+            <column name="id">35</column>
+            <column name="title">Almaty held premiere of The Way of the Leader. Astana film</column>
+            <column name="text">The premiere of the feature film The Way of the Leader. Astana took place in the Alatau film concert hall in the city of Almaty. The film directed by Akan Satayev was produced by Sh.Aimanov Film Studio Kazakhfilm with the Sataifilm film studio ordered by the Ministry of Culture and Sports of Kazakhstan. 
+
+A solemn presentation of one of the largest projects was attended by the films creative team. 
+
+It is a great honor for me and my team to work on such a large project, which is for the wider audience. I believe it will be interesting both for the elder generation and for young persons. We made every effort to make the film captivating and straightforward. The film is historical, and the persons featuring in the film are living witnesses and participants of the events important to the country, said filmmaker Akan Satayev on the stage. 
+
+The Way of the Leader. Astana is the sixth extract of the film epic The Way of the Leader. The recently shot films such as The Sky of My Childhood, The Fiery River, The Iron Mountain, Breaking the vicious circle and So Was The Alignment of The Stars achieved the unprecedented success among the locals. 
+
+The film reveals the story of the construction of the capital city of Kazakhstan - Astana, starting with July 1994 when Nursultan Abishevich Nazarbayev put forward the proposal to move the capital city from Almaty to Akmola despite the difficult economic crisis. The decision to relocate the capital was made in spite of all the risks and controversial accounts, overcoming the uncertainty, critics and financial difficulties. An international presentation of the new capital city of Kazakhstan - Astana - was held on June 10, 1998.  </column>
+            <column name="source">https://bnews.kz/en/news/almaty_held_premiere_of_the_way_of_the_leader_astana_film</column>
+            <column name="author"></column>
+            <column name="date_created">2018-12-23</column>
+            <column name="images">https://bnews.kz/storage/32/32d0807a4737a2507d8e2bd0f6e2549e_crop_l_8_t_5_w_512_h_288_resize_w_525_h_.jpg</column>
+        </table>
+        <table name="articles">
+            <column name="id">36</column>
+            <column name="title">Kazakh Information Minister: The State will keep on supporting republican newspapers</column>
+            <column name="text">Minister of Information and Communications of Kazakhstan Dauren Abayev answered the questions by Deputies regarding the forcible subscription to newspapers and magazines, BNews.kz correspondent reports. 
+
+The Mazhilis deputies asked Kazakh Minister of Information and Communication Dauran Abayev about the viability of the newspapers and magazines unable to survive without the state support. It was all about the forcible subscription by workers of the budgetary sphere. 
+
+There are only two-three Republican newspapers in Kazakh, and their number in Russian is more. The State will keep on supporting, another matter is the improvement of the content quality. Work in this direction is underway. Unfortunately, the only way to disseminate is to subscribe, said Dauren Abayev underlining that he is against the forcible subscription among the citizens. As an argument in defense of the print media, the Minister presented the data of the research saying that time to read newspapers takes 10 times more than to read online content. </column>
+            <column name="source">https://bnews.kz/en/news/kazakh_information_minister_the_state_will_keep_on_supporting_republican_newspapers</column>
+            <column name="author"></column>
+            <column name="date_created">2018-12-23</column>
+            <column name="images">https://bnews.kz/storage/3c/3c5928340620651e5b9f86efc38aff6f_crop_l_5_t_3_w_521_h_293_resize_w_525_h_.jpg</column>
+        </table>
+        <table name="articles">
+            <column name="id">37</column>
+            <column name="title">Nursultan Nazarbayev gives start to nationwide telebridge Made in Kazakhstan</column>
+            <column name="text">In the context of the nationwide telebridge The 2nd Five-Year Plan of Industrialization. Made in Kazakhstan,President of Kazakhstan Nursultan Nazarbayev has launched two plants in Eastern Kazakhstan and the Karaganda region, BNews.kz correspondent reports.  
+
+The President started Bakyrchiksk Mining venture in Eastern Kazakhstan and Sary-Arka Copper Processing LLP in the Karaganda region. 
+
+Earlier, a solemn ceremony of awarding of winners of the awards competition of the President Altyn sapa. </column>
+            <column name="source">https://bnews.kz/en/news/nursultan_nazarbayev_gives_start_to_nationwide_telebridge_made_in_kazakhstan</column>
+            <column name="author"></column>
+            <column name="date_created">2018-12-23</column>
+            <column name="images">https://bnews.kz/storage/55/55e4ea8c9d0f311cfd7db7478d8135b8_crop_l_6_t_5_w_512_h_288_resize_w_525_h_.jpg</column>
+        </table>
+        <table name="articles">
+            <column name="id">38</column>
+            <column name="title">Kazakhstan endorsed the implementation of JCPOA</column>
+            <column name="text">Kazakhstan views the Joint Comprehensive Plan of Action on the Iranian nuclear issue as key to nuclear security in the region, a press service of the Ministry of Foreign Affairs of Kazakhstan informs. It was said by Permanent Representative of Kazakhstan to the UN Kairat Umarov, addressing at the open session of the UN Security Council. 
+
+On December 12, the UN Security Council heard the sixth biannual report of the Un Secretary-General on Resolution 2231 delivered by Under-Secretary-General for Political Affairs Rosemary DiCarlo. The session was also attended by U.S. Secretary of State Mike Pompeo.</column>
+            <column name="source">https://bnews.kz/en/news/kazakhstan_endorsed_the_implementation_of_jcpoa</column>
+            <column name="author"></column>
+            <column name="date_created">2018-12-23</column>
+            <column name="images">https://bnews.kz/storage/09/0916ae617ee8496d932719ee326ea4e4.jpg</column>
+        </table>
+        <!-- Таблица users -->
+        <table name="users">
+            <column name="login">user</column>
+            <column name="password">d8578edf8458ce06fbc5bb76a58c5ca4</column>
+            <column name="id">1</column>
+        </table>
+    </database>
+</pma_xml_export>
